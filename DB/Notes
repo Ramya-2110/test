@@ -1,0 +1,17 @@
+DB- server specific for data storage.
+Types of DB- 
+Relational / Structured :
+1.MySql
+2.postgres
+Non-relational / Unstructured:
+1.Mongodb
+2.pinecone
+
+Relational Vs Non-relational
+1.Structured (data is stored as tables) | Unstructured (Data is stored as files, json, key value pairs)
+2.schema (constraints) | No/loose schema
+3.Read operation is fast bcz of indexing | Write operation is fast 
+4.Scale(add) them horizontally | Scaled in both vertically and horizontally
+ Horizontal - Increasing the no. of servers or clusters. (this is better since many servers are working)
+ Vertical- Increasing the space of existing server
+ 
